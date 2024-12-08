@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="NOwUOdIO2CEJArCu55LZ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="keKzIT1thTVrekXwVCKE-22" value="Karyawan" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="311" y="109" width="150" height="784" as="geometry" />
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-23" value="SistemAkuntansi" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="523" y="108" width="150" height="784" as="geometry" />
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-24" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="815" y="108" width="150" height="784" as="geometry" />
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-25" value="AdminKeuangan" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="108" width="150" height="784" as="geometry" />
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-26" value="ManajerKeuangan" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="109" width="150" height="784" as="geometry" />
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-27" value="Input Transaksi" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" target="keKzIT1thTVrekXwVCKE-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="501" y="215" />
+            </Array>
+            <mxPoint x="385.32352941176464" y="215" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-28" value="Simpan Transaksi" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="keKzIT1thTVrekXwVCKE-23" target="keKzIT1thTVrekXwVCKE-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="753" y="267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-29" value="Transaksi Tersimpan" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="keKzIT1thTVrekXwVCKE-24" target="keKzIT1thTVrekXwVCKE-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-30" value="Konfirmasi Transaksi" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="keKzIT1thTVrekXwVCKE-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="504" y="371" />
+            </Array>
+            <mxPoint x="385.32352941176464" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-31" value="Lakukan Rekonsiliasi Kas" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="keKzIT1thTVrekXwVCKE-25" target="keKzIT1thTVrekXwVCKE-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="856" y="423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-32" value="Ambil Data Transaksi dan Saldo" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="keKzIT1thTVrekXwVCKE-23" target="keKzIT1thTVrekXwVCKE-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="753" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-33" value="Data Transaksi dan Saldo" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="keKzIT1thTVrekXwVCKE-24" target="keKzIT1thTVrekXwVCKE-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-34" value="Hasil Rekonsiliasi" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="keKzIT1thTVrekXwVCKE-23" target="keKzIT1thTVrekXwVCKE-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="853" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-35" value="Minta Laporan Keuangan" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" target="keKzIT1thTVrekXwVCKE-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="956" y="631" />
+            </Array>
+            <mxPoint x="1289.4999999999995" y="631" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-36" value="Ambil Data Laporan" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="keKzIT1thTVrekXwVCKE-23" target="keKzIT1thTVrekXwVCKE-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="753" y="683" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-37" value="Kirim Data Laporan" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="keKzIT1thTVrekXwVCKE-24" target="keKzIT1thTVrekXwVCKE-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-38" value="Tampilkan Laporan Keuangan" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="keKzIT1thTVrekXwVCKE-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="953" y="787" />
+            </Array>
+            <mxPoint x="1289.4999999999995" y="787" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-40" value="SistemAkuntansi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="523" y="893" width="150" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-41" value="Karyawan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="886" width="149" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-42" value="Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="893" width="151" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-43" value="AdminKeuangan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="893" width="150" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="keKzIT1thTVrekXwVCKE-44" value="ManajerKeuangan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="893" width="150" height="64" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
